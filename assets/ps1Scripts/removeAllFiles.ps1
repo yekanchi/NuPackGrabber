@@ -1,1 +1,1 @@
-Get-ChildItem -Path .\assets\temp -Recurse -Directory | Remove-Item -Confirm:$false -Force
+Get-ChildItem -path ".\assets\temp" | Remove-Item -Recurse -Confirm:$false -Force
